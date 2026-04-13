@@ -1,0 +1,125 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Hardhat
+artifacts/
+cache/
+typechain-types/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Build outputs
+build/
+dist/
+.next/
+out/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Blockchain/Hardhat
+.hardhat_artifacts/
+hardhat.config.backup.js
+
+# MongoDB
+*.bak
+
+# IPFS/Web3Storage
+.web3_storage/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Editor backups
+*.bak
+*.tmp
+*~
+
+# Local development
+.local
+.cache/
+
+# Frontend build
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/node_modules/
+
+# Backend specific
+server.log
+.env.production
+.env.staging
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# System files
+.AppleDouble
+.LSOverride
+*.sublime-workspace
+*.sublime-project
+
+# IDE specific
+.vscode/extensions.json
+.vscode/launch.json
+.vscode/settings.json
+.vscode/tasks.json
+
+# Contract deployment info (keep in .env instead)
+deployments/
+deployment-log.json
+
+# Backup files
+*.backup
+*.bak.json
+
+# yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+
+# --------
+# shells
+# ------
+
+*.bat
+*.ps
+*.sh
+*.ps1

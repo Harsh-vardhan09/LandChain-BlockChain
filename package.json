@@ -1,0 +1,40 @@
+{
+  "name": "land-management",
+  "version": "1.0.0",
+  "description": "Land Registry Smart Contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js",
+    "start": "node server.js",
+    "dev": "npm run compile && npm run deploy && npm start",
+    "dev:full": "./start-all.sh",
+    "dev:full:win": "start-all.bat",
+    "seed": "node scripts/seed.js",
+    "install:all": "npm install && cd frontend && npm install",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3",
+    "axios": "^1.6.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.10.1",
+    "express": "^4.18.4",
+    "express-fileupload": "^1.5.0",
+    "express-rate-limit": "^8.3.2",
+    "express-validator": "^7.3.2",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^7.6.3",
+    "morgan": "^1.10.1",
+    "multer": "^1.4.5-lts.1",
+    "web3.storage": "^4.5.5"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  }
+}
