@@ -123,3 +123,8 @@ deployment-log.json
 *.ps
 *.sh
 *.ps1
+
+# --------
+# md
+# ------
+**.md
