@@ -125,6 +125,6 @@ deployment-log.json
 *.ps1
 
 # --------
-# md
+# README
 # ------
 **.md
